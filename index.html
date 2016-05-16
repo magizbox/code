@@ -8,12 +8,11 @@
   <meta name="HandheldFriendly" content="true"/>
   <link rel="canonical" href="http://underscorejs.org/" />
   <link rel="shortcut icon" href="underscore-master/favicon.ico" type="image/x-icon" />
-  <title>Underscore.js</title>
+  <title>Code</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="sidebar" class="interface">
-    <h1>hihi</h1>
     <a class="toc_title" href="#">
       Code <span class="version">(1.0)</span>
     </a>
@@ -24,230 +23,13 @@
     </ul>
 
     <input id="function_filter" placeholder="Filter" type="text" autofocus />
-    <ng-include src="'time/index.html'"></ng-include>
-    <div class="searchable_section">
-      <a class="toc_title" href="#">
-        Introduction
-      </a>
-    </div>
-
     <ng-include src="'sections/collection/toc.html'"></ng-include>
     <ng-include src="'sections/time/toc.html'"></ng-include>
 
 
-    <div class="searchable_section">
-      <a class="toc_title" href="#functions">
-        Functions
-      </a>
-      <ul class="toc_section">
-        <li data-name="bind">- <a href="#bind">bind</a></li>
-        <li data-name="bindAll">- <a href="#bindAll">bindAll</a></li>
-        <li data-name="partial">- <a href="#partial">partial</a></li>
-        <li data-name="memoize">- <a href="#memoize">memoize</a></li>
-        <li data-name="delay">- <a href="#delay">delay</a></li>
-        <li data-name="defer">- <a href="#defer">defer</a></li>
-        <li data-name="throttle">- <a href="#throttle">throttle</a></li>
-        <li data-name="debounce">- <a href="#debounce">debounce</a></li>
-        <li data-name="once">- <a href="#once">once</a></li>
-        <li data-name="after">- <a href="#after">after</a></li>
-        <li data-name="before">- <a href="#before">before</a></li>
-        <li data-name="wrap">- <a href="#wrap">wrap</a></li>
-        <li data-name="negate">- <a href="#negate">negate</a></li>
-        <li data-name="compose">- <a href="#compose">compose</a></li>
-      </ul>
-    </div>
-
-    <div class="searchable_section">
-      <a class="toc_title" href="#objects">
-        Objects
-      </a>
-      <ul class="toc_section">
-        <li data-name="keys">- <a href="#keys">keys</a></li>
-        <li data-name="allKeys">- <a href="#allKeys">allKeys</a></li>
-        <li data-name="values">- <a href="#values">values</a></li>
-        <li data-name="mapObject">- <a href="#mapObject">mapObject</a></li>
-        <li data-name="pairs">- <a href="#pairs">pairs</a></li>
-        <li data-name="invert">- <a href="#invert">invert</a></li>
-        <li data-name="create">- <a href="#create">create</a></li>
-        <li data-name="object-functions" data-aliases="methods">- <a href="#object-functions">functions</a></li>
-        <li data-name="findKey">- <a href="#findKey">findKey</a></li>
-        <li data-name="extend">- <a href="#extend">extend</a></li>
-        <li data-name="extendOwn" data-aliases="assign">- <a href="#extendOwn">extendOwn</a></li>
-        <li data-name="pick">- <a href="#pick">pick</a></li>
-        <li data-name="omit">- <a href="#omit">omit</a></li>
-        <li data-name="defaults">- <a href="#defaults">defaults</a></li>
-        <li data-name="clone">- <a href="#clone">clone</a></li>
-        <li data-name="tap">- <a href="#tap">tap</a></li>
-        <li data-name="has">- <a href="#has">has</a></li>
-        <li data-name="matcher">- <a href="#matcher">matcher</a></li>
-        <li data-name="property">- <a href="#property">property</a></li>
-        <li data-name="propertyOf">- <a href="#propertyOf">propertyOf</a></li>
-        <li data-name="isEqual">- <a href="#isEqual">isEqual</a></li>
-        <li data-name="isMatch">- <a href="#isMatch">isMatch</a></li>
-        <li data-name="isEmpty">- <a href="#isEmpty">isEmpty</a></li>
-        <li data-name="isElement">- <a href="#isElement">isElement</a></li>
-        <li data-name="isArray">- <a href="#isArray">isArray</a></li>
-        <li data-name="isObject">- <a href="#isObject">isObject</a></li>
-        <li data-name="isArguments">- <a href="#isArguments">isArguments</a></li>
-        <li data-name="isFunction">- <a href="#isFunction">isFunction</a></li>
-        <li data-name="isString">- <a href="#isString">isString</a></li>
-        <li data-name="isNumber">- <a href="#isNumber">isNumber</a></li>
-        <li data-name="isFinite">- <a href="#isFinite">isFinite</a></li>
-        <li data-name="isBoolean">- <a href="#isBoolean">isBoolean</a></li>
-        <li data-name="isDate">- <a href="#isDate">isDate</a></li>
-        <li data-name="isRegExp">- <a href="#isRegExp">isRegExp</a></li>
-        <li data-name="isError">- <a href="#isError">isError</a></li>
-        <li data-name="isSymbol">- <a href="#isSymbol">isSymbol</a></li>
-        <li data-name="isNaN">- <a href="#isNaN">isNaN</a></li>
-        <li data-name="isNull">- <a href="#isNull">isNull</a></li>
-        <li data-name="isUndefined">- <a href="#isUndefined">isUndefined</a></li>
-      </ul>
-    </div>
-
-    <div class="searchable_section">
-      <a class="toc_title" href="#utility">
-        Utility
-      </a>
-      <ul class="toc_section">
-        <li data-name="noConflict">- <a href="#noConflict">noConflict</a></li>
-        <li data-name="identity">- <a href="#identity">identity</a></li>
-        <li data-name="constant">- <a href="#constant">constant</a></li>
-        <li data-name="noop">- <a href="#noop">noop</a></li>
-        <li data-name="times">- <a href="#times">times</a></li>
-        <li data-name="random">- <a href="#random">random</a></li>
-        <li data-name="mixin">- <a href="#mixin">mixin</a></li>
-        <li data-name="iteratee">- <a href="#iteratee">iteratee</a></li>
-        <li data-name="uniqueId">- <a href="#uniqueId">uniqueId</a></li>
-        <li data-name="escape">- <a href="#escape">escape</a></li>
-        <li data-name="unescape">- <a href="#unescape">unescape</a></li>
-        <li data-name="result">- <a href="#result">result</a></li>
-        <li data-name="now">- <a href="#now">now</a></li>
-        <li data-name="template">- <a href="#template">template</a></li>
-      </ul>
-    </div>
-
-    <div class="searchable_section">
-      <a class="toc_title" href="#oop">
-        OOP Style
-      </a>
-    </div>
-
-    <div class="searchable_section">
-      <a class="toc_title" href="#chaining">
-        Chaining
-      </a>
-      <ul class="toc_section">
-        <li data-name="chain">- <a href="#chain">chain</a></li>
-        <li data-name="value">- <a href="#value">value</a></li>
-      </ul>
-    </div>
-
-    <div class="searchable_section">
-      <a class="toc_title" href="#links">
-        Links
-      </a>
-    </div>
-
-    <div class="searchable_section">
-      <a class="toc_title" href="#changelog">
-        Change Log
-      </a>
-    </div>
-
   </div>
 
   <div class="container">
-
-    <p id="introduction">
-      <img id="logo" src="docs/images/underscore.png" alt="Underscore.js" />
-    </p>
-
-    <p>
-      <a href="http://github.com/jashkenas/underscore/">Underscore</a>
-      is a JavaScript library that provides a whole mess of useful functional
-      programming helpers without extending any built-in objects.
-      It&rsquo;s the answer to the question: &ldquo;If I sit down in front of a
-      blank HTML page, and want to start being productive immediately, what do I need?&rdquo;
-      &hellip; and the tie to go along with
-      <a href="http://jquery.com">jQuery</a>'s tux and
-      <a href="http://backbonejs.org">Backbone</a>'s suspenders.
-    </p>
-
-    <p>
-      Underscore provides over 100 functions that support both your favorite
-      workaday functional helpers: <b>map</b>, <b>filter</b>, <b>invoke</b> &mdash;
-      as well as more specialized goodies: function binding, javascript
-      templating, creating quick indexes, deep equality testing, and so on.
-    </p>
-
-    <p>
-      A complete <a href="underscore-master/test">Test Suite</a>
-      is included for your perusal.
-    </p>
-
-    <p>
-      You may also read through the <a href="docs/underscore.html">annotated source code</a>.
-    </p>
-
-    <p>
-      Enjoying Underscore, and want to <i>turn it up to 11?</i> Try <a href="http://documentcloud.github.io/underscore-contrib/">Underscore-contrib</a>.
-    </p>
-
-    <p>
-      The project is
-      <a href="https://github.com/jashkenas/underscore">hosted on GitHub</a>.
-      You can report bugs and discuss features on the
-      <a href="https://github.com/jashkenas/underscore/issues">issues page</a>,
-      on Freenode in the <tt>#documentcloud</tt> channel, or in our <a href="https://gitter.im/jashkenas/underscore">Gitter</a>
-      channel.
-    </p>
-
-    <p>
-      <i>Underscore is an open-source component of <a href="http://documentcloud.org/">DocumentCloud</a>.</i>
-    </p>
-
-    <h2>Downloads <i style="padding-left: 12px; font-size:12px;">(Right-click, and use "Save As")</i></h2>
-
-    <table>
-      <tr>
-        <td><a href="underscore-master/underscore.js">Development Version (1.8.3)</a></td>
-        <td><i>52kb, Uncompressed with Plentiful Comments</i></td>
-      </tr>
-      <tr>
-        <td><a href="underscore-master/underscore-min.js">Production Version (1.8.3)</a></td>
-        <td>
-          <i>5.7kb, Minified and Gzipped</i>
-          &nbsp;<small>(<a href="underscore-master/underscore-min.map">Source Map</a>)</small>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2"><div class="rule"></div></td>
-      </tr>
-      <tr>
-        <td><a href="https://raw.github.com/jashkenas/underscore/master/underscore.js">Edge Version</a></td>
-        <td><i>Unreleased, current <tt>master</tt>, use at your own risk</i></td>
-      </tr>
-    </table>
-
-    <h2>Installation</h2>
-
-    <ul>
-      <li>
-        <b>Node.js</b> <tt>npm install underscore</tt>
-      </li>
-      <li>
-        <b>Meteor.js</b> <tt>meteor add underscore</tt>
-      </li>
-      <li>
-        <b>Require.js</b> <tt>require(["underscore"], ...</tt>
-      </li>
-      <li>
-        <b>Bower</b> <tt>bower install underscore</tt>
-      </li>
-      <li>
-        <b>Component</b> <tt>component install jashkenas/underscore</tt>
-      </li>
-    </ul>
 
     <div id="documentation">
 
@@ -1611,7 +1393,7 @@ _.isNull(undefined);
 _.isUndefined(window.missingVariable);
 =&gt; true
 </pre>
-
+<ng-include src="'sections/time/content.html'"></ng-include>
       <h2 id="utility">Utility Functions</h2>
 
       <p id="noConflict">
@@ -3026,8 +2808,5 @@ _.chain([1, 2, 3]).reverse().value();
   <script type="text/javascript" src="underscore-master/underscore.js"></script>
   <script type="text/javascript" src="docs/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
-<script>
-
-</script>
 </body>
 </html>
