@@ -6,6 +6,18 @@
 </p>
 
 <pre>
-startOfDay()
+Calendar calendar = Calendar.getInstance();
+calendar.set(Calendar.HOUR_OF_DAY, 0);
+calendar.set(Calendar.MINUTE, 0);
+calendar.set(Calendar.SECOND, 0);
+calendar.set(Calendar.MILLISECOND, 0);
+calendar.getTimeInMillis();
 =&gt; 16/05/2016
 </pre>
+
+<div class="link">
+  <a target="_blank"
+     href="http://stackoverflow.com/questions/28222566/android-get-unix-time-stamp-for-beginning-and-end-of-day">
+    Android - Get Unix time stamp for beginning and end of day
+  </a>
+</div>
