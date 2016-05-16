@@ -9,179 +9,11 @@
   <link rel="canonical" href="http://underscorejs.org/" />
   <link rel="shortcut icon" href="underscore-master/favicon.ico" type="image/x-icon" />
   <title>Underscore.js</title>
-  <style>
-    body {
-      font-size: 14px;
-      line-height: 22px;
-      background: #f4f4f4 url(docs/images/background.png);
-      color: #000;
-      font-family: Helvetica Neue, Helvetica, Arial;
-    }
-    .interface {
-      font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif !important;
-    }
-    div#sidebar {
-      background: #fff;
-      position: fixed;
-      top: 0; left: 0; bottom: 0;
-      width: 200px;
-      overflow-y: auto;
-      overflow-x: hidden;
-      -webkit-overflow-scrolling: touch;
-      padding: 15px 0 30px 30px;
-      border-right: 1px solid #bbb;
-      box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; -moz-box-shadow: 0 0 20px #ccc;
-    }
-    a.toc_title, a.toc_title:visited {
-      display: block;
-      color: black;
-      font-weight: bold;
-      margin-top: 15px;
-    }
-      a.toc_title:hover {
-        text-decoration: underline;
-      }
-      #sidebar .version {
-        font-size: 10px;
-        font-weight: normal;
-      }
-    ul.toc_section {
-      font-size: 11px;
-      line-height: 14px;
-      margin: 5px 0 0 0;
-      padding-left: 0px;
-      list-style-type: none;
-      font-family: Lucida Grande;
-    }
-      .toc_section li {
-        cursor: pointer;
-        margin: 0 0 3px 0;
-      }
-        .toc_section li a {
-          text-decoration: none;
-          color: black;
-        }
-          .toc_section li a:hover {
-            text-decoration: underline;
-          }
-    input#function_filter {
-        width: 80%;
-    }
-    div.container {
-      width: 550px;
-      margin: 40px 0 50px 260px;
-    }
-    img#logo {
-      width: 396px;
-      height: 69px;
-    }
-    div.warning {
-      margin-top: 15px;
-      font: bold 11px Arial;
-      color: #770000;
-    }
-    p {
-      margin: 20px 0;
-      width: 550px;
-    }
-    a, a:visited {
-      color: #444;
-    }
-    a:active, a:hover {
-      color: #000;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      padding-top: 20px;
-    }
-      h2 {
-        font-size: 20px;
-      }
-    b.header {
-      font-size: 16px;
-      line-height: 30px;
-    }
-    span.alias {
-      font-size: 14px;
-      font-style: italic;
-      margin-left: 20px;
-    }
-    table, tr, td {
-      margin: 0; padding: 0;
-    }
-      td {
-        padding: 2px 12px 2px 0;
-      }
-      table .rule {
-        height: 1px;
-        background: #ccc;
-        margin: 5px 0;
-      }
-    ul {
-      list-style-type: circle;
-      padding: 0 0 0 20px;
-    }
-      li {
-        margin-bottom: 10px;
-      }
-      code, pre, tt {
-        font-family: Monaco, Consolas, "Lucida Console", monospace;
-        font-size: 12px;
-        line-height: 18px;
-        font-style: normal;
-      }
-        tt {
-          padding: 0px 3px;
-          background: #fff;
-          border: 1px solid #ddd;
-          zoom: 1;
-        }
-        code {
-          margin-left: 20px;
-        }
-        pre {
-          font-size: 12px;
-          padding: 2px 0 2px 15px;
-          border-left: 5px solid #bbb;
-          margin: 0px 0 30px;
-        }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 640px),
-          only screen and (-o-min-device-pixel-ratio: 3/2) and (max-width: 640px),
-          only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
-      img {
-        max-width: 100%;
-      }
-      div#sidebar {
-        -webkit-overflow-scrolling: initial;
-        position: relative;
-        width: 90%;
-        height: 120px;
-        left: 0;
-        top: -7px;
-        padding: 10px 0 10px 30px;
-        border: 0;
-      }
-      img#logo {
-        width: auto;
-        height: auto;
-      }
-      div.container {
-        margin: 0;
-        width: 100%;
-      }
-      p, div.container ul {
-        max-width: 98%;
-        overflow-x: scroll;
-      }
-      pre {
-        overflow: scroll;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div id="sidebar" class="interface">
-
+    <h1>hihi</h1>
     <a class="toc_title" href="#">
       Code <span class="version">(1.0)</span>
     </a>
@@ -192,73 +24,16 @@
     </ul>
 
     <input id="function_filter" placeholder="Filter" type="text" autofocus />
-
+    <ng-include src="'time/index.html'"></ng-include>
     <div class="searchable_section">
       <a class="toc_title" href="#">
         Introduction
       </a>
     </div>
 
-    <div class="searchable_section">
-      <a class="toc_title" href="#collections">
-        Collections
-      </a>
-      <ul class="toc_section">
-        <li data-name="each" data-aliases="forEach">- <a href="#each">each</a></li>
-        <li data-name="map" data-aliases="collect">- <a href="#map">map</a></li>
-        <li data-name="reduce" data-aliases="inject foldl">- <a href="#reduce">reduce</a></li>
-        <li data-name="reduceRight" data-aliases="foldr">- <a href="#reduceRight">reduceRight</a></li>
-        <li data-name="find" data-aliases="detect">- <a href="#find">find</a></li>
-        <li data-name="filter" data-aliases="select">- <a href="#filter">filter</a></li>
-        <li data-name="where">- <a href="#where">where</a></li>
-        <li data-name="findWhere">- <a href="#findWhere">findWhere</a></li>
-        <li data-name="reject">- <a href="#reject">reject</a></li>
-        <li data-name="every" data-aliases="all">- <a href="#every">every</a></li>
-        <li data-name="some" data-aliases="any">- <a href="#some">some</a></li>
-        <li data-name="contains" data-aliases="includes">- <a href="#contains">contains</a></li>
-        <li data-name="invoke">- <a href="#invoke">invoke</a></li>
-        <li data-name="pluck">- <a href="#pluck">pluck</a></li>
-        <li data-name="max">- <a href="#max">max</a></li>
-        <li data-name="min">- <a href="#min">min</a></li>
-        <li data-name="sortBy">- <a href="#sortBy">sortBy</a></li>
-        <li data-name="groupBy">- <a href="#groupBy">groupBy</a></li>
-        <li data-name="indexBy">- <a href="#indexBy">indexBy</a></li>
-        <li data-name="countBy">- <a href="#countBy">countBy</a></li>
-        <li data-name="shuffle">- <a href="#shuffle">shuffle</a></li>
-        <li data-name="sample">- <a href="#sample">sample</a></li>
-        <li data-name="toArray">- <a href="#toArray">toArray</a></li>
-        <li data-name="size">- <a href="#size">size</a></li>
-        <li data-name="partition">- <a href="#partition">partition</a></li>
-      </ul>
-    </div>
+    <ng-include src="'sections/collection/toc.html'"></ng-include>
+    <ng-include src="'sections/time/toc.html'"></ng-include>
 
-    <div class="searchable_section">
-      <a class="toc_title" href="#arrays">
-        Arrays
-      </a>
-      <ul class="toc_section">
-        <li data-name="first" data-aliases="head take">- <a href="#first">first</a></li>
-        <li data-name="initial">- <a href="#initial">initial</a></li>
-        <li data-name="last">- <a href="#last">last</a></li>
-        <li data-name="rest" data-aliases="tail drop">- <a href="#rest">rest</a></li>
-        <li data-name="compact">- <a href="#compact">compact</a></li>
-        <li data-name="flatten">- <a href="#flatten">flatten</a></li>
-        <li data-name="without">- <a href="#without">without</a></li>
-        <li data-name="union">- <a href="#union">union</a></li>
-        <li data-name="intersection">- <a href="#intersection">intersection</a></li>
-        <li data-name="difference">- <a href="#difference">difference</a></li>
-        <li data-name="uniq" data-aliases="unique">- <a href="#uniq">uniq</a></li>
-        <li data-name="zip">- <a href="#zip">zip</a></li>
-        <li data-name="unzip">- <a href="#unzip">unzip</a></li>
-        <li data-name="object">- <a href="#object">object</a></li>
-        <li data-name="indexOf">- <a href="#indexOf">indexOf</a></li>
-        <li data-name="lastIndexOf">- <a href="#lastIndexOf">lastIndexOf</a></li>
-        <li data-name="sortedIndex">- <a href="#sortedIndex">sortedIndex</a></li>
-        <li data-name="findIndex">- <a href="#findIndex">findIndex</a></li>
-        <li data-name="findLastIndex">- <a href="#findLastIndex">findLastIndex</a></li>
-        <li data-name="range">- <a href="#range">range</a></li>
-      </ul>
-    </div>
 
     <div class="searchable_section">
       <a class="toc_title" href="#functions">
