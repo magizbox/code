@@ -1,4 +1,4 @@
-site_name: DataScience
+site_name: Code101
 pages:
 - "Home": "index.md"
 markdown_extensions:
