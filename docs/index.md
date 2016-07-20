@@ -13,9 +13,6 @@ code/
 ├── 1. 101 (installation, hello world)
 ├── 2. 201 (syntax)
 ├── 3. data structure
-│   ├── number & string
-│   ├── collection
-│   └── datetime
 ├── 4. oop
 ├── 5. networking
 ├── 6. os
@@ -51,6 +48,14 @@ code/
 4. functions `<define, use, parameters, scope of variables, anonymous functions, callbacks, self-invoking functions, inner functions, functions that return functions, functions that redefined themselves, closures>`
 5. naming convention
 6. comment convention
+
+## 3.Data Structure
+1. Number
+2. String
+3. Boolean
+4. Object
+5. DateTime
+6. Collection
 
 ## 4. OOP [^1]
 
