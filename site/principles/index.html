@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Code101</title>
+	<title>Principles - Code101</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +43,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">Code101</a>
+            <a class="navbar-brand" href="..">Code101</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -54,49 +54,49 @@
                 
                 
                     <li >
-                        <a href=".">Home</a>
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Principles</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="principles/">Principles</a>
+                        <a href="../paradigms/">Paradigms</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="paradigms/">Paradigms</a>
+                        <a href="../testing/">Testing</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="testing/">Testing</a>
+                        <a href="../logging/">Logging</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="logging/">Logging</a>
+                        <a href="../functional/">Functional</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="functional/">Functional</a>
+                        <a href="../functional/">Parallel</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="functional/">Parallel</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="ide/">IDE</a>
+                        <a href="../ide/">IDE</a>
                     </li>
                 
                 
@@ -110,13 +110,13 @@
                     </a>
                 </li>
                 
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="..">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../paradigms/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -129,15 +129,65 @@
 
         <div class="container">
             
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#programming-principles">Programming Principles</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
+<h1 id="programming-principles">Programming Principles</h1>
+<h2>Programming Principles <sup id="fnref-1695-1"><a href="#fn-1695-1" rel="footnote">1</a></sup></h2>
 
+<h3>Generic</h3>
 
+<ul>
+<li>KISS (Keep It Simple Stupid)</li>
+<li>YAGNI</li>
+<li>Do The Simplest Thing That Could Possibly Work</li>
+<li>Keep Things DRY</li>
+<li>Code For The Maintainer</li>
+<li>Avoid Premature Optimization</li>
+</ul>
+
+<h3>Inter-Module/Class</h3>
+
+<ul>
+<li>Minimise Coupling</li>
+<li>Law of Demeter</li>
+<li>Composition Over Inheritance</li>
+<li>Orthogonality</li>
+</ul>
+
+<h3>Module/Class</h3>
+
+<ul>
+<li>Maximise Cohesion</li>
+<li>Liskov Substitution Principle</li>
+<li>Open/Closed Principle</li>
+<li>Single Responsibility Principle</li>
+<li>Hide Implementation Details</li>
+<li>Curly's Law</li>
+</ul>
+
+<h3>Software Quality Laws</h3>
+
+<p>First Law of Software Quality</p>
+<p><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12208379_935835626465316_2142902617290887244_n.jpg?oh=77da6e3e5602bb5855829c8acf8c2997&amp;oe=56BF6761&amp;__gda__=1455329768_915b2894d1098337804309f20446c5d2" alt="" /></p>
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-1695-1">
+<a href="http://webpro.github.io/programming-principles/">http://webpro.github.io/programming-principles/</a>&#160;<a href="#fnref-1695-1" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div></div>
+            
         </div>
 
         <footer class="col-md-12">
@@ -146,12 +196,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
