@@ -49,6 +49,196 @@
             "location": "/#projects-1", 
             "text": "Create  Guess My Number Game  Create Analog Clock  Create Pong Game  Create flappy bird", 
             "title": "Projects 1"
+        }, 
+        {
+            "location": "/principles/", 
+            "text": "Programming Principles\n\n\nProgramming Principles \n1\n\n\n\nGeneric\n\n\n\n\n\nKISS (Keep It Simple Stupid)\n\n\nYAGNI\n\n\nDo The Simplest Thing That Could Possibly Work\n\n\nKeep Things DRY\n\n\nCode For The Maintainer\n\n\nAvoid Premature Optimization\n\n\n\n\n\nInter-Module/Class\n\n\n\n\n\nMinimise Coupling\n\n\nLaw of Demeter\n\n\nComposition Over Inheritance\n\n\nOrthogonality\n\n\n\n\n\nModule/Class\n\n\n\n\n\nMaximise Cohesion\n\n\nLiskov Substitution Principle\n\n\nOpen/Closed Principle\n\n\nSingle Responsibility Principle\n\n\nHide Implementation Details\n\n\nCurly's Law\n\n\n\n\n\nSoftware Quality Laws\n\n\n\nFirst Law of Software Quality\n\n\n\n\n\n\n\n\n\n\n\n\n\nhttp://webpro.github.io/programming-principles/", 
+            "title": "Principles"
+        }, 
+        {
+            "location": "/principles/#programming-principles", 
+            "text": "", 
+            "title": "Programming Principles"
+        }, 
+        {
+            "location": "/paradigms/", 
+            "text": "Programming Paradigms\n\n\nMain paradigm approaches \n1\n\n\n1. Imperative\n\n\n\n\nDescription\n:\n\n\nComputation as statements that directly change a program state (datafields)\n\n\nMain Characteristics:\n\n\nDirect assignments\n, \ncommon data structures\n, \nglobal variables\n\n\nCritics:\n Edsger W. Dijkstra, Michael A. Jackson\n\n\nExamples:\n Assembly, C, C++, Java, PHP, Python\n\n\n2. Structured\n\n\nDescription\n:\n\n\nA style of imperative programming with more logical program structure\n\n\nMain Characteristics:\n\n\nStructograms\n, \nindentation\n, \neither no, or limited use of, goto statements\n\n\nExamples:\n C, C++, Java, Python\n\n\n3. Procedural\n\n\nDescription\n:\n\n\nDerived from structured programming, based on the concept of modular programming or the procedure call\n\n\nMain Characteristics:\n\n\nLocal variables\n, \nsequence\n, \nselection\n, \niteration\n, and \nmodularization\n\n\nExamples:\n C, C++, Lisp, PHP, Python\n\n\n4. Functional\n\n\n\n\nDescription\n:\n\n\nTreats computation as the evaluation of mathematical functions avoiding state and mutable data\n\n\nMain Characteristics:\n\n\nLambda calculus\n, \ncompositionality\n, \nformula\n, \nrecursion\n, \nreferential transparency\n, \nno side effects\n\n\nExamples:\n Clojure, Coffeescript, Elixir, Erlang, F#, Haskell, Lisp, Python, Scala, SequenceL, SML\n\n\n5. Event-driven including time driven\n\n\nDescription\n:\n\n\nProgram flow is determined mainly by events, such as mouse clicks or interrupts including timer\n\n\nMain Characteristics:\n\n\nMain loop\n, \nevent handlers\n, \nasynchronous processes\n\n\nExamples:\n Javascript, ActionScript, Visual Basic\n\n\n6. Object-oriented\n\n\nDescription\n:\n\n\nTreats datafields as objects manipulated through pre-defined methods only\n\n\nMain Characteristics:\n\n\nObjects\n, \nmethods\n, \nmessage passing\n, \ninformation hiding\n, \ndata abstraction\n, \nencapsulation\n, \npolymorphism\n, \ninheritance\n, \nserialization-marshalling\n\n\nExamples:\n Common Lisp, C++, C#, Eiffel, Java, PHP, Python, Ruby, Scala\n\n\n7. Declarative\n\n\nDescription\n:\n\n\nDefines computation logic without defining its detailed control flow\n\n\nMain Characteristics:\n\n\n4GLs\n, \nspreadsheets\n, \nreport program generators\n\n\nExamples:\n SQL, regular expressions, CSS, Prolog\n\n\n8. Automata-based programming\n\n\nDescription\n:\n\n\nTreats programs as a model of a finite state machine or any other formal automata\n\n\nMain Characteristics:\n\n\nState enumeration, control variable, state changes, isomorphism, state transition table\n\n\nExamples:\n \nAsmL\n\n\n\n\n\n\n\n\n\n\nComparison of programming paradigms", 
+            "title": "Paradigms"
+        }, 
+        {
+            "location": "/paradigms/#programming-paradigms", 
+            "text": "", 
+            "title": "Programming Paradigms"
+        }, 
+        {
+            "location": "/paradigms/#main-paradigm-approaches-1", 
+            "text": "", 
+            "title": "Main paradigm approaches 1"
+        }, 
+        {
+            "location": "/paradigms/#1-imperative", 
+            "text": "Description :  Computation as statements that directly change a program state (datafields)  Main Characteristics:  Direct assignments ,  common data structures ,  global variables  Critics:  Edsger W. Dijkstra, Michael A. Jackson  Examples:  Assembly, C, C++, Java, PHP, Python", 
+            "title": "1. Imperative"
+        }, 
+        {
+            "location": "/paradigms/#2-structured", 
+            "text": "Description :  A style of imperative programming with more logical program structure  Main Characteristics:  Structograms ,  indentation ,  either no, or limited use of, goto statements  Examples:  C, C++, Java, Python", 
+            "title": "2. Structured"
+        }, 
+        {
+            "location": "/paradigms/#3-procedural", 
+            "text": "Description :  Derived from structured programming, based on the concept of modular programming or the procedure call  Main Characteristics:  Local variables ,  sequence ,  selection ,  iteration , and  modularization  Examples:  C, C++, Lisp, PHP, Python", 
+            "title": "3. Procedural"
+        }, 
+        {
+            "location": "/paradigms/#4-functional", 
+            "text": "Description :  Treats computation as the evaluation of mathematical functions avoiding state and mutable data  Main Characteristics:  Lambda calculus ,  compositionality ,  formula ,  recursion ,  referential transparency ,  no side effects  Examples:  Clojure, Coffeescript, Elixir, Erlang, F#, Haskell, Lisp, Python, Scala, SequenceL, SML", 
+            "title": "4. Functional"
+        }, 
+        {
+            "location": "/paradigms/#5-event-driven-including-time-driven", 
+            "text": "Description :  Program flow is determined mainly by events, such as mouse clicks or interrupts including timer  Main Characteristics:  Main loop ,  event handlers ,  asynchronous processes  Examples:  Javascript, ActionScript, Visual Basic", 
+            "title": "5. Event-driven including time driven"
+        }, 
+        {
+            "location": "/paradigms/#6-object-oriented", 
+            "text": "Description :  Treats datafields as objects manipulated through pre-defined methods only  Main Characteristics:  Objects ,  methods ,  message passing ,  information hiding ,  data abstraction ,  encapsulation ,  polymorphism ,  inheritance ,  serialization-marshalling  Examples:  Common Lisp, C++, C#, Eiffel, Java, PHP, Python, Ruby, Scala", 
+            "title": "6. Object-oriented"
+        }, 
+        {
+            "location": "/paradigms/#7-declarative", 
+            "text": "Description :  Defines computation logic without defining its detailed control flow  Main Characteristics:  4GLs ,  spreadsheets ,  report program generators  Examples:  SQL, regular expressions, CSS, Prolog", 
+            "title": "7. Declarative"
+        }, 
+        {
+            "location": "/paradigms/#8-automata-based-programming", 
+            "text": "Description :  Treats programs as a model of a finite state machine or any other formal automata  Main Characteristics:  State enumeration, control variable, state changes, isomorphism, state transition table  Examples:   AsmL      Comparison of programming paradigms", 
+            "title": "8. Automata-based programming"
+        }, 
+        {
+            "location": "/testing/", 
+            "text": "Testing\n\n\n\n\n1. Definition \n1\n \n2\n\n\nTest-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle:\n\n\n\n\n\n\nStep 1: First the developer writes an (initially failing) automated test case that defines a desired improvement or new function,\n\n\nStep 2: Then produces the minimum amount of code to pass that test,\n\n\nStep 3: Finally refactors the new code to acceptable standards.\n\n\n\n\nKent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence.\n\n\n2. Principles \n2\n\n\nKent Beck defines\n\n\n\n\nNever with a single line of code unless you have a failing automated test.\n\n\nEliminate duplication\n\n\n\n\nRed: (Automated test fail)\n\n\nGreen (Automated test pass because dev code has been written)\n\n\nRefactor (Eliminate duplication, Clean the code)\n\n\n3. Assertions \n Assert Framework\n\n\n\n  Assert that the expected results have occurred.\n\n\n\n\n[code lang=\"java\"]\n@Test\npublic void test() {\n    assertEquals(2, 1 + 1);\n}\n[/code]\n\n\n\n\n4. Test Runners \n3\n\n\n\n\n\n\nWhen testing a large real-world web app there may be tens or hundreds of test cases, and we certainly don't want to run each one manually. In such as scenario we need to use a test runner to find and execute the tests for us, and in this article we'll explore just that.\n\n\n\n\nA test runner provides the a good basis for a real testing framework. A test runner is designed to \nrun tests\n, \ntag tests\n with attributes (annotations), and \nprovide reporting\n and other features.\n\n\nIn general you break your tests up into 3 standard sections; \nsetUp()\n, \ntests\n, and \ntearDown()\n, typical for a test runner setup.\n\n\nThe setUp() and tearDown() methods are run automatically for every test, and contain respectively:\n\n\n\n\nThe setup steps you need to take before running the test, such as unlocking the screen and killing open apps.\n\n\nThe cooldown steps you need to run after the test, such as closing the Marionette session.\n\n\n\n\n5. Test Frameworks\n\n\n\n\n\n\nLanguage\n\n\nTest Frameworks\n\n\n\n\n\n\n\nC++/VisualStudio\n\n\nC++: Test\n\n\n\n\n\n\nWeb Service\n\n\nrest-assured\n\n\n\n\n\n\n\nWeb UI\n\n\nSeleniumHQ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTest-driven development\n\n\n\n\n\n\nOverview on TDD (Test Driven Development) \n ATDD (Acceptance Test Driven Development)\n\n\n\n\n\n\nPart 5: Introducing a test runner", 
+            "title": "Testing"
+        }, 
+        {
+            "location": "/testing/#testing", 
+            "text": "", 
+            "title": "Testing"
+        }, 
+        {
+            "location": "/testing/#1-definition-1-2", 
+            "text": "Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle:    Step 1: First the developer writes an (initially failing) automated test case that defines a desired improvement or new function,  Step 2: Then produces the minimum amount of code to pass that test,  Step 3: Finally refactors the new code to acceptable standards.   Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence.", 
+            "title": "1. Definition 1 2"
+        }, 
+        {
+            "location": "/testing/#2-principles-2", 
+            "text": "Kent Beck defines   Never with a single line of code unless you have a failing automated test.  Eliminate duplication   Red: (Automated test fail)  Green (Automated test pass because dev code has been written)  Refactor (Eliminate duplication, Clean the code)", 
+            "title": "2. Principles 2"
+        }, 
+        {
+            "location": "/testing/#3-assertions-assert-framework", 
+            "text": "Assert that the expected results have occurred.  [code lang=\"java\"]\n@Test\npublic void test() {\n    assertEquals(2, 1 + 1);\n}\n[/code]", 
+            "title": "3. Assertions &amp; Assert Framework"
+        }, 
+        {
+            "location": "/testing/#4-test-runners-3", 
+            "text": "When testing a large real-world web app there may be tens or hundreds of test cases, and we certainly don't want to run each one manually. In such as scenario we need to use a test runner to find and execute the tests for us, and in this article we'll explore just that.   A test runner provides the a good basis for a real testing framework. A test runner is designed to  run tests ,  tag tests  with attributes (annotations), and  provide reporting  and other features.  In general you break your tests up into 3 standard sections;  setUp() ,  tests , and  tearDown() , typical for a test runner setup.  The setUp() and tearDown() methods are run automatically for every test, and contain respectively:   The setup steps you need to take before running the test, such as unlocking the screen and killing open apps.  The cooldown steps you need to run after the test, such as closing the Marionette session.", 
+            "title": "4. Test Runners 3"
+        }, 
+        {
+            "location": "/testing/#5-test-frameworks", 
+            "text": "Language  Test Frameworks    C++/VisualStudio  C++: Test    Web Service  rest-assured    Web UI  SeleniumHQ        Test-driven development    Overview on TDD (Test Driven Development)   ATDD (Acceptance Test Driven Development)    Part 5: Introducing a test runner", 
+            "title": "5. Test Frameworks"
+        }, 
+        {
+            "location": "/logging/", 
+            "text": "Logging\n\n\n\n\nLogging \n1\n\n\nLogging is the process of recording application actions and state to a secondary interface.\n\n\nLogging System \n3\n\n\n\n\nLevels\n\n\n\n  \n\n    \nLevel\n\n    \nWhen it\u2019s used\n\n  \n\n  \n\n    \nDEBUG\n\n    \nDetailed information, typically of interest only when diagnosing problems.\n\n  \n\n  \n\n    \nINFO\n\n    \nConfirmation that things are working as expected.\n\n  \n\n  \n\n    \nWARNING\n\n    \nAn indication that something unexpected happened, or indicative of some problem in the near future (e.g. \u2018disk space low\u2019). The software is still working as expected.\n\n  \n\n  \n\n    \nERROR\n\n    \nDue to a more serious problem, the software has not been able to perform some function.\n\n  \n\n  \n\n    \nCRITICAL\n\n    \nA serious error, indicating that the program itself may be unable to continue running.\n\n  \n\n\n\n\n\nBest Practices \n2\n \n4\n \n5\n\n\n\n\nLogging should always be considered when handling an exception but should never take the place of a real handler.\n\n\nKeep all logging code in your production code. Have an ability to enable more/less detailed logging in production, preferably per subsystem and without restarting your program.\n\n\nMake logs easy to parse by grep and by eye. Stick to several common fields at the beginning of each line. Identify time, severity, and subsystem in every line. Clearly formulate the message. Make every log message easy to map to its source code line.\n\n\nIf an error happens, try to collect and log as much information as possible. It may take long but it's OK because normal processing has failed anyway. Not having to wait when the same condition happens in production with a debugger attached is priceless.\n\n\n\n\n\n\n\n\n\n\n\n\nThe Art of Logging\n\n\n\n\n\n\nFirst Rule Of Logging\n\n\n\n\n\n\nTaichung Python Logging\n\n\n\n\n\n\nLogging Best Practices\n\n\n\n\n\n\nWhat are some patterns and anti-patterns of application logging?", 
+            "title": "Logging"
+        }, 
+        {
+            "location": "/logging/#logging", 
+            "text": "", 
+            "title": "Logging"
+        }, 
+        {
+            "location": "/logging/#logging-1", 
+            "text": "Logging is the process of recording application actions and state to a secondary interface.", 
+            "title": "Logging 1"
+        }, 
+        {
+            "location": "/logging/#logging-system-3", 
+            "text": "", 
+            "title": "Logging System 3"
+        }, 
+        {
+            "location": "/logging/#levels", 
+            "text": "Level \n     When it\u2019s used \n   \n   \n     DEBUG \n     Detailed information, typically of interest only when diagnosing problems. \n   \n   \n     INFO \n     Confirmation that things are working as expected. \n   \n   \n     WARNING \n     An indication that something unexpected happened, or indicative of some problem in the near future (e.g. \u2018disk space low\u2019). The software is still working as expected. \n   \n   \n     ERROR \n     Due to a more serious problem, the software has not been able to perform some function. \n   \n   \n     CRITICAL \n     A serious error, indicating that the program itself may be unable to continue running.", 
+            "title": "Levels"
+        }, 
+        {
+            "location": "/logging/#best-practices-2-4-5", 
+            "text": "Logging should always be considered when handling an exception but should never take the place of a real handler.  Keep all logging code in your production code. Have an ability to enable more/less detailed logging in production, preferably per subsystem and without restarting your program.  Make logs easy to parse by grep and by eye. Stick to several common fields at the beginning of each line. Identify time, severity, and subsystem in every line. Clearly formulate the message. Make every log message easy to map to its source code line.  If an error happens, try to collect and log as much information as possible. It may take long but it's OK because normal processing has failed anyway. Not having to wait when the same condition happens in production with a debugger attached is priceless.       The Art of Logging    First Rule Of Logging    Taichung Python Logging    Logging Best Practices    What are some patterns and anti-patterns of application logging?", 
+            "title": "Best Practices 2 4 5"
+        }, 
+        {
+            "location": "/functional/", 
+            "text": "Functional\n\n\nWithout mutable variables, assignment, conditional\n\n\nAdvantages \n1\n\n\n\n\nMost functional languages provide a nice, protected environment, somewhat like JavaLanguage. It's good to be able to catch exceptions instead of having CoreDumps in stability-critical applications.\n\n\nFP encourages safe ways of programming. I've never seen an OffByOne mistake in a functional program, for example... I've seen one. Adding two lengths to get an index but one of them was zero-indexed. Easy to discover though. -- AnonymousDonor\n\n\nFunctional programs tend to be much more terse than their ImperativeLanguage counterparts. Often this leads to enhanced programmer productivity.\n\n\nFP encourages quick prototyping. As such, I think it is the best software design paradigm for ExtremeProgrammers... but what do I know.\n\n\nFP is modular in the dimension of functionality, where ObjectOrientedProgramming is modular in the dimension of different components.\n\n\nGeneric routines (also provided by CeePlusPlus) with easy syntax. ParametricPolymorphism\n\n\nThe ability to have your cake and eat it. Imagine you have a complex OO system processing messages - every component might make state changes depending on the message and then forward the message to some objects it has links to. Wouldn't it be just too cool to be able to easily roll back every change if some object deep in the call hierarchy decided the message is flawed? How about having a history of different states?\n\n\nMany housekeeping tasks made for you: deconstructing data structures (PatternMatching), storing variable bindings (LexicalScope with closures), strong typing (TypeInference), * GarbageCollection, storage allocation, whether to use boxed (pointer-to-value) or unboxed (value directly) representation...\n\n\nSafe multithreading! Immutable data structures are not subject to data race conditions, and consequently don't have to be protected by locks. If you are always allocating new objects, rather than destructively manipulating existing ones, the locking can be hidden in the allocation and GarbageCollection system.\n\n\n\n\n\n\n\n\n\n\n\n\nAdvantages Of Functional Programming", 
+            "title": "Functional"
+        }, 
+        {
+            "location": "/functional/#functional", 
+            "text": "Without mutable variables, assignment, conditional", 
+            "title": "Functional"
+        }, 
+        {
+            "location": "/functional/#advantages-1", 
+            "text": "Most functional languages provide a nice, protected environment, somewhat like JavaLanguage. It's good to be able to catch exceptions instead of having CoreDumps in stability-critical applications.  FP encourages safe ways of programming. I've never seen an OffByOne mistake in a functional program, for example... I've seen one. Adding two lengths to get an index but one of them was zero-indexed. Easy to discover though. -- AnonymousDonor  Functional programs tend to be much more terse than their ImperativeLanguage counterparts. Often this leads to enhanced programmer productivity.  FP encourages quick prototyping. As such, I think it is the best software design paradigm for ExtremeProgrammers... but what do I know.  FP is modular in the dimension of functionality, where ObjectOrientedProgramming is modular in the dimension of different components.  Generic routines (also provided by CeePlusPlus) with easy syntax. ParametricPolymorphism  The ability to have your cake and eat it. Imagine you have a complex OO system processing messages - every component might make state changes depending on the message and then forward the message to some objects it has links to. Wouldn't it be just too cool to be able to easily roll back every change if some object deep in the call hierarchy decided the message is flawed? How about having a history of different states?  Many housekeeping tasks made for you: deconstructing data structures (PatternMatching), storing variable bindings (LexicalScope with closures), strong typing (TypeInference), * GarbageCollection, storage allocation, whether to use boxed (pointer-to-value) or unboxed (value directly) representation...  Safe multithreading! Immutable data structures are not subject to data race conditions, and consequently don't have to be protected by locks. If you are always allocating new objects, rather than destructively manipulating existing ones, the locking can be hidden in the allocation and GarbageCollection system.       Advantages Of Functional Programming", 
+            "title": "Advantages 1"
+        }, 
+        {
+            "location": "/functional/", 
+            "text": "Functional\n\n\nWithout mutable variables, assignment, conditional\n\n\nAdvantages \n1\n\n\n\n\nMost functional languages provide a nice, protected environment, somewhat like JavaLanguage. It's good to be able to catch exceptions instead of having CoreDumps in stability-critical applications.\n\n\nFP encourages safe ways of programming. I've never seen an OffByOne mistake in a functional program, for example... I've seen one. Adding two lengths to get an index but one of them was zero-indexed. Easy to discover though. -- AnonymousDonor\n\n\nFunctional programs tend to be much more terse than their ImperativeLanguage counterparts. Often this leads to enhanced programmer productivity.\n\n\nFP encourages quick prototyping. As such, I think it is the best software design paradigm for ExtremeProgrammers... but what do I know.\n\n\nFP is modular in the dimension of functionality, where ObjectOrientedProgramming is modular in the dimension of different components.\n\n\nGeneric routines (also provided by CeePlusPlus) with easy syntax. ParametricPolymorphism\n\n\nThe ability to have your cake and eat it. Imagine you have a complex OO system processing messages - every component might make state changes depending on the message and then forward the message to some objects it has links to. Wouldn't it be just too cool to be able to easily roll back every change if some object deep in the call hierarchy decided the message is flawed? How about having a history of different states?\n\n\nMany housekeeping tasks made for you: deconstructing data structures (PatternMatching), storing variable bindings (LexicalScope with closures), strong typing (TypeInference), * GarbageCollection, storage allocation, whether to use boxed (pointer-to-value) or unboxed (value directly) representation...\n\n\nSafe multithreading! Immutable data structures are not subject to data race conditions, and consequently don't have to be protected by locks. If you are always allocating new objects, rather than destructively manipulating existing ones, the locking can be hidden in the allocation and GarbageCollection system.\n\n\n\n\n\n\n\n\n\n\n\n\nAdvantages Of Functional Programming", 
+            "title": "Parallel"
+        }, 
+        {
+            "location": "/functional/#functional", 
+            "text": "Without mutable variables, assignment, conditional", 
+            "title": "Functional"
+        }, 
+        {
+            "location": "/functional/#advantages-1", 
+            "text": "Most functional languages provide a nice, protected environment, somewhat like JavaLanguage. It's good to be able to catch exceptions instead of having CoreDumps in stability-critical applications.  FP encourages safe ways of programming. I've never seen an OffByOne mistake in a functional program, for example... I've seen one. Adding two lengths to get an index but one of them was zero-indexed. Easy to discover though. -- AnonymousDonor  Functional programs tend to be much more terse than their ImperativeLanguage counterparts. Often this leads to enhanced programmer productivity.  FP encourages quick prototyping. As such, I think it is the best software design paradigm for ExtremeProgrammers... but what do I know.  FP is modular in the dimension of functionality, where ObjectOrientedProgramming is modular in the dimension of different components.  Generic routines (also provided by CeePlusPlus) with easy syntax. ParametricPolymorphism  The ability to have your cake and eat it. Imagine you have a complex OO system processing messages - every component might make state changes depending on the message and then forward the message to some objects it has links to. Wouldn't it be just too cool to be able to easily roll back every change if some object deep in the call hierarchy decided the message is flawed? How about having a history of different states?  Many housekeeping tasks made for you: deconstructing data structures (PatternMatching), storing variable bindings (LexicalScope with closures), strong typing (TypeInference), * GarbageCollection, storage allocation, whether to use boxed (pointer-to-value) or unboxed (value directly) representation...  Safe multithreading! Immutable data structures are not subject to data race conditions, and consequently don't have to be protected by locks. If you are always allocating new objects, rather than destructively manipulating existing ones, the locking can be hidden in the allocation and GarbageCollection system.       Advantages Of Functional Programming", 
+            "title": "Advantages 1"
+        }, 
+        {
+            "location": "/ide/", 
+            "text": "IDE: Integrated Development Environment\n\n\nAn integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion.\n\n\n1.\n Navigation\n\n\nWord Navigation\nLine Navigation\nFile Navigation\n\n\n2.\n Editing\n\n\nAuto Complete\nCode Complete\nMulticursor\nTemplate (Snippets)\n\n\n3.\n Formatting\n\n\nDebugging\n\n\nCustom Rendering for Object", 
+            "title": "IDE"
+        }, 
+        {
+            "location": "/ide/#ide-integrated-development-environment", 
+            "text": "An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion.", 
+            "title": "IDE: Integrated Development Environment"
+        }, 
+        {
+            "location": "/ide/#1-navigation", 
+            "text": "Word Navigation\nLine Navigation\nFile Navigation", 
+            "title": "1. Navigation"
+        }, 
+        {
+            "location": "/ide/#2-editing", 
+            "text": "Auto Complete\nCode Complete\nMulticursor\nTemplate (Snippets)", 
+            "title": "2. Editing"
+        }, 
+        {
+            "location": "/ide/#3-formatting", 
+            "text": "", 
+            "title": "3. Formatting"
+        }, 
+        {
+            "location": "/ide/#debugging", 
+            "text": "Custom Rendering for Object", 
+            "title": "Debugging"
         }
     ]
 }

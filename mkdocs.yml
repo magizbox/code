@@ -1,5 +1,12 @@
 site_name: Code101
 pages:
 - "Home": "index.md"
+- "Principles": "principles.md"
+- "Paradigms": "paradigms.md"
+- "Testing": "testing.md"
+- "Logging": "logging.md"
+- "Functional": "functional.md"
+- "Parallel": "functional.md"
+- "IDE": "ide.md"
 markdown_extensions:
     - footnotes

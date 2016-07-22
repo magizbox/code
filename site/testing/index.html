@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+
+	<title>Testing - Code101</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="..">Code101</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../principles/">Principles</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../paradigms/">Paradigms</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Testing</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../logging/">Logging</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../functional/">Functional</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../functional/">Parallel</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../ide/">IDE</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../paradigms/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../logging/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#testing">Testing</a></li>
+        
+    
+        <li class="main "><a href="#1-definition-1-2">1. Definition 1 2</a></li>
+        
+    
+        <li class="main "><a href="#2-principles-2">2. Principles 2</a></li>
+        
+    
+        <li class="main "><a href="#3-assertions-assert-framework">3. Assertions &amp; Assert Framework</a></li>
+        
+    
+        <li class="main "><a href="#4-test-runners-3">4. Test Runners 3</a></li>
+        
+    
+        <li class="main "><a href="#5-test-frameworks">5. Test Frameworks</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="testing">Testing</h1>
+<p><img src="http://elstarit.nl/wp-content/uploads/2014/08/UNIT_TEST_TDD.png" alt="" /></p>
+<h1 id="1-definition-1-2">1. Definition <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></h1>
+<p>Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle:</p>
+<p><img alt="" src="http://image.slidesharecdn.com/presentationontddatdd-100216123440-phpapp02/95/overview-on-tdd-test-driven-development-atdd-acceptance-test-driven-development-27-1024.jpg?cb=1266325710" /></p>
+<blockquote>
+<p>Step 1: First the developer writes an (initially failing) automated test case that defines a desired improvement or new function,</p>
+<p>Step 2: Then produces the minimum amount of code to pass that test,</p>
+<p>Step 3: Finally refactors the new code to acceptable standards.</p>
+</blockquote>
+<p>Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence.</p>
+<h1 id="2-principles-2">2. Principles <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></h1>
+<p>Kent Beck defines</p>
+<ul>
+<li>Never with a single line of code unless you have a failing automated test.</li>
+<li>Eliminate duplication</li>
+</ul>
+<p><strong><span style="color: red">Red: (Automated test fail)</span></strong>
+<strong><span style="color: green">Green (Automated test pass because dev code has been written)</span></strong>
+<strong><span style="color: blue">Refactor (Eliminate duplication, Clean the code)</span></strong></p>
+<h1 id="3-assertions-assert-framework">3. Assertions &amp; Assert Framework</h1>
+<blockquote>
+  Assert that the expected results have occurred.
+</blockquote>
+
+<p>[code lang="java"]
+@Test
+public void test() {
+    assertEquals(2, 1 + 1);
+}
+[/code]</p>
+<p><img alt="" src="https://lh3.googleusercontent.com/7Al53UeVble_p8m_JytrrRgVObvFZmw-sbCT9Q4bXzY4PcCjWFVsTG6MRVZdaBlke9CoTtRkyhwGwQ=w673-h242-no" /></p>
+<h1 id="4-test-runners-3">4. Test Runners <sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup></h1>
+<p><img alt="" src="http://blog.excastle.com/images/resharper/UnitTestRunner.png" /></p>
+<blockquote>
+<p>When testing a large real-world web app there may be tens or hundreds of test cases, and we certainly don't want to run each one manually. In such as scenario we need to use a test runner to find and execute the tests for us, and in this article we'll explore just that.</p>
+</blockquote>
+<p>A test runner provides the a good basis for a real testing framework. A test runner is designed to <strong>run tests</strong>, <strong>tag tests</strong> with attributes (annotations), and <strong>provide reporting</strong> and other features.</p>
+<p>In general you break your tests up into 3 standard sections; <code>setUp()</code>, <code>tests</code>, and <code>tearDown()</code>, typical for a test runner setup.</p>
+<p>The setUp() and tearDown() methods are run automatically for every test, and contain respectively:</p>
+<ul>
+<li>The setup steps you need to take before running the test, such as unlocking the screen and killing open apps.</li>
+<li>The cooldown steps you need to run after the test, such as closing the Marionette session.</li>
+</ul>
+<h1 id="5-test-frameworks">5. Test Frameworks</h1>
+<table>
+<tr>
+<td>Language</td>
+<td>Test Frameworks</td>
+</tr>
+
+<tr>
+<td>C++/VisualStudio</td>
+<td><a href="http://magizbox.com/index.php/code/cc/test-c/">C++: Test</a></td>
+</tr>
+<tr>
+<td>Web Service</td>
+<td><a href="https://github.com/jayway/rest-assured">rest-assured</a></td>
+</tr>
+
+<tr>
+<td>Web UI</td>
+<td><a href="http://www.seleniumhq.org/">SeleniumHQ</a></td>
+</tr>
+
+</table>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-driven development</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://www.slideshare.net/tiemoon/overview-on-tdd-test-driven-development-atdd-acceptance-test-driven-development">Overview on TDD (Test Driven Development) &amp; ATDD (Acceptance Test Driven Development)</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://developer.mozilla.org/en-US/docs/Archive/Firefox_OS/Automated_testing/gaia-ui-tests/Part_5_Introducing_a_test_runner">Part 5: Introducing a test runner</a>&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
