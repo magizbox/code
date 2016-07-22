@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Logging - Code101</title>
+	<title>Parallel - Code101</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -77,8 +77,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Logging</a>
+                    <li >
+                        <a href="../logging/">Logging</a>
                     </li>
                 
                 
@@ -89,8 +89,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../parallel/">Parallel</a>
+                    <li class="active">
+                        <a href="./">Parallel</a>
                     </li>
                 
                 
@@ -111,12 +111,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../testing/">
+                        <a rel="next" href="../functional/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../functional/">
+                        <a rel="prev" href="../ide/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -132,73 +132,91 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#logging">Logging</a></li>
+        <li class="main active"><a href="#paralellconcurrency-programming">Paralell/Concurrency Programming</a></li>
         
-            <li><a href="#logging-1">Logging 1</a></li>
+    
+        <li class="main "><a href="#1-callback-pattern-2">1. Callback Pattern 2</a></li>
+        
+    
+        <li class="main "><a href="#2-promise-pattern-1-3">2. Promise Pattern 1 3</a></li>
+        
+            <li><a href="#what-is-a-promise">What is a promise?</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="logging">Logging</h1>
-<p><img alt="" src="http://i.imgur.com/VdiUT.jpg" /></p>
-<h2 id="logging-1">Logging <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h2>
-<p>Logging is the process of recording application actions and state to a secondary interface.</p>
-<h3 id="logging-system-3">Logging System <sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup></h3>
-<p><img alt="" src="https://lh3.googleusercontent.com/jbyMnJyc4tQwUkcz_XQAIQrca-LIXz-L3S5kfa8JhKmyiT2zYwgYf1VrS3J98yj2-jvGUsf6fQM5sg=w969-h229-no" /></p>
-<h3 id="levels">Levels</h3>
-<table>
-  <tr>
-    <th>Level</th>
-    <th>When it’s used</th>
-  </tr>
-  <tr>
-    <td>DEBUG</td>
-    <td>Detailed information, typically of interest only when diagnosing problems.</td>
-  </tr>
-  <tr>
-    <td>INFO</td>
-    <td>Confirmation that things are working as expected.</td>
-  </tr>
-  <tr>
-    <td>WARNING</td>
-    <td>An indication that something unexpected happened, or indicative of some problem in the near future (e.g. ‘disk space low’). The software is still working as expected.</td>
-  </tr>
-  <tr>
-    <td><br>ERROR<br></td>
-    <td>Due to a more serious problem, the software has not been able to perform some function.</td>
-  </tr>
-  <tr>
-    <td>CRITICAL</td>
-    <td>A serious error, indicating that the program itself may be unable to continue running.</td>
-  </tr>
-</table>
-
-<h3 id="best-practices-2-4-5">Best Practices <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup> <sup id="fnref:4"><a class="footnote-ref" href="#fn:4" rel="footnote">4</a></sup> <sup id="fnref:5"><a class="footnote-ref" href="#fn:5" rel="footnote">5</a></sup></h3>
+<h1 id="paralellconcurrency-programming">Paralell/Concurrency Programming</h1>
+<h1 id="1-callback-pattern-2">1. Callback Pattern <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></h1>
+<p>Callback functions are derived from a programming paradigm known as functional programming. At a fundamental level, functional programming specifies the use of functions as arguments. Functional programming was—and still is, though to a much lesser extent today—seen as an esoteric technique of specially trained, master programmers.</p>
+<p>Fortunately, the techniques of functional programming have been elucidated so that mere mortals like you and me can understand and use them with ease. One of the chief techniques in functional programming happens to be callback functions. As you will read shortly, implementing callback functions is as easy as passing regular variables as arguments. This technique is so simple that I wonder why it is mostly covered in advanced JavaScript topics.</p>
+<p>[code lang="javascript"]
+function getN(){
+    return 10;
+}</p>
+<p>var n = getN();</p>
+<p>function getAsyncN(callback){
+    setTimeout(function(){
+        callback(10);
+    }, 1000);
+}</p>
+<p>function afterGetAsyncN(result){
+    var n = 10;
+    console.log(n);
+}</p>
+<p>getAsyncN(afterGetAsyncN);
+[/code]</p>
+<h1 id="2-promise-pattern-1-3">2. Promise Pattern <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup> <sup id="fnref:3"><a class="footnote-ref" href="#fn:3" rel="footnote">3</a></sup></h1>
+<h3 id="what-is-a-promise">What is a promise?</h3>
+<p>The core idea behind promises is that <code>a promise</code> represents <code>the result of an asynchronous operation</code>.</p>
+<p>A promise is in one of three different states:</p>
 <ul>
-<li>Logging should always be considered when handling an exception but should never take the place of a real handler.</li>
-<li>Keep all logging code in your production code. Have an ability to enable more/less detailed logging in production, preferably per subsystem and without restarting your program.</li>
-<li>Make logs easy to parse by grep and by eye. Stick to several common fields at the beginning of each line. Identify time, severity, and subsystem in every line. Clearly formulate the message. Make every log message easy to map to its source code line.</li>
-<li>If an error happens, try to collect and log as much information as possible. It may take long but it's OK because normal processing has failed anyway. Not having to wait when the same condition happens in production with a debugger attached is priceless.</li>
+<li>pending - The initial state of a promise.</li>
+<li>fulfilled - The state of a promise representing a successful operation.</li>
+<li>rejected - The state of a promise representing a failed operation.</li>
 </ul>
+<p>Once a promise is fulfilled or rejected, it is immutable (i.e. it can never change again).</p>
+<p>[code lang="javascript"]
+function aPromise(message){
+    return new Promise(function(fulfill, reject){
+        if(message == "success"){
+            fulfill("it is a success Promise");
+        }
+        if(message == "fail"){
+            reject("it is a fail Promise");
+        }
+    });
+}
+[/code]</p>
+<p>Usage:</p>
+<p>[code lang="javascript"]
+aPromise("success").then(function(successMessage){
+  console.log(successMessage)
+}, function(failMessage){
+  console.log(failMessage)
+})
+// it is a success Promise
+[/code]</p>
+<p>[code lang="javascript"]
+aPromise("fail").then(function(successMessage){
+  console.log(successMessage)
+}, function(failMessage){
+  console.log(failMessage)
+})
+// it is a fail Promise
+[/code]</p>
 <div class="footnote">
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="http://www.codeproject.com/Articles/42354/The-Art-of-Logging">The Art of Logging</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Promise Paterns: <a href="https://www.promisejs.org/patterns/">https://www.promisejs.org/patterns/</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="http://c2.com/cgi/wiki?FirstRuleOfLogging">First Rule Of Logging</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/">Understand JavaScript Callback Functions and Use Them</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 <li id="fn:3">
-<p><a href="http://www.slideshare.net/ChunChiaChen1/20151024-taichungpy-python-logging">Taichung Python Logging</a>&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p><a href="http://c2.com/cgi/wiki?LoggingBestPractices">Logging Best Practices</a>&#160;<a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p><a href="http://programmers.stackexchange.com/questions/112402/what-are-some-patterns-and-anti-patterns-of-application-logging">What are some patterns and anti-patterns of application logging?</a>&#160;<a class="footnote-backref" href="#fnref:5" rev="footnote" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise, Javascript</a>&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div></div>

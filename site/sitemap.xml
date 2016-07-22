@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>None/principles/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
      <loc>None/paradigms/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
      <loc>None/testing/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
      <loc>None/logging/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -44,15 +44,15 @@
     
     <url>
      <loc>None/functional/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/functional/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>None/parallel/</loc>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -60,7 +60,7 @@
     
     <url>
      <loc>None/ide/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <lastmod>2016-07-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
