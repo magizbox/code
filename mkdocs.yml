@@ -6,7 +6,7 @@ pages:
 - "Testing": "testing.md"
 - "Logging": "logging.md"
 - "Functional": "functional.md"
-- "Parallel": "functional.md"
+- "Parallel": "parallel.md"
 - "IDE": "ide.md"
 markdown_extensions:
     - footnotes

@@ -10,8 +10,8 @@ Each language I will cover these concepts:
 
 ```
 code/
-├── 1. 101 (installation, hello world)
-├── 2. 201 (syntax)
+├── 1. introduction
+├── 2. syntax
 ├── 3. data structure
 ├── 4. oop
 ├── 5. networking
@@ -33,29 +33,38 @@ code/
 └── 21. production (docker)
 ```
 
-## 1. 101
+## 1. Introduction
 
 1. Installation (environment, IDE)
 2. Hello world
 3. Courses
 4. Resources
 
-## 2. 201
+## 2. Syntax
 
 1. variables and expressions
 2. conditional
 3. loops and Iteration
-4. functions `<define, use, parameters, scope of variables, anonymous functions, callbacks, self-invoking functions, inner functions, functions that return functions, functions that redefined themselves, closures>`
+4. functions
+    * `define, use`
+    * `parameters`
+    * `scope of variables`
+    * `anonymous functions`
+    * `callbacks`
+    * `self-invoking functions`, `inner functions`
+    * `functions that return functions`, `functions that redefined themselves`
+    * `closures`
 5. naming convention
 6. comment convention
 
 ## 3.Data Structure
+
 1. Number
 2. String
-3. Boolean
-4. Object
-5. DateTime
-6. Collection
+3. Collection
+4. DateTime
+5. Boolean
+6. Object
 
 ## 4. OOP [^1]
 
