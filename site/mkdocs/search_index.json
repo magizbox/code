@@ -2,56 +2,71 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Code\n\n\n\n\nIt's inspired by \nThis is CS50 course from Harvard University\n, \nProgramming for Everybody (Getting Started with Python) from coursera\n\n\n\n\nI will to do crazy and dummy things, I will rewrite article for basic languages (which tutorialpoints do very goods)\n\n\nEach language I will cover these concepts:\n\n\nTable of content\n\n\ncode/\n\u251c\u2500\u2500 1. introduction\n\u251c\u2500\u2500 2. syntax\n\u251c\u2500\u2500 3. data structure\n\u251c\u2500\u2500 4. oop\n\u251c\u2500\u2500 5. networking\n\u251c\u2500\u2500 6. os\n\u251c\u2500\u2500 7. parallel\n\u251c\u2500\u2500 8. event based\n\u251c\u2500\u2500 9. error handling\n\u251c\u2500\u2500 10. logging\n\u251c\u2500\u2500 11. configuration\n\u251c\u2500\u2500 12. documentation\n\u251c\u2500\u2500 13. test\n\u251c\u2500\u2500 14. ui\n\u251c\u2500\u2500 15. web\n\u251c\u2500\u2500 16. database\n\u251c\u2500\u2500 17. ide\n\u251c\u2500\u2500 18. package manager\n\u251c\u2500\u2500 19. build tool\n\u251c\u2500\u2500 20. make module\n\u2514\u2500\u2500 21. production (docker)\n\n\n\n\n1. Introduction\n\n\n\n\nInstallation (environment, IDE)\n\n\nHello world\n\n\nCourses\n\n\nResources\n\n\n\n\n2. Syntax\n\n\n\n\nvariables and expressions\n\n\nconditional\n\n\nloops and Iteration\n\n\nfunctions\n\n\ndefine, use\n\n\nparameters\n\n\nscope of variables\n\n\nanonymous functions\n\n\ncallbacks\n\n\nself-invoking functions\n, \ninner functions\n\n\nfunctions that return functions\n, \nfunctions that redefined themselves\n\n\nclosures\n\n\n\n\n\n\nnaming convention\n\n\ncomment convention\n\n\n\n\n3.Data Structure\n\n\n\n\nNumber\n\n\nString\n\n\nCollection\n\n\nDateTime\n\n\nBoolean\n\n\nObject\n\n\n\n\n4. OOP \n1\n\n\n\n\nClasses \n Objects \n\n\nInheritance\n\n\nEncapsulation\n\n\nAbstraction \n\n\nPolymorphism \n\n\n\n\nfor OOP Example: see \nPython: OOP\n\n\n5. Networking\n\n\n\n\nREST (example with chat app \nsender\n, \nreceiver\n, \nmessage\n)\n\n\n\n\nCode Learn\n\n\nCode.org\n\n\n\n\n\n\nStar Wars Characters Will Now Teach Your Kids To Code\n\n\n\n\nProjects \n1\n\n\n\n\nCreate\n\n\nGuess My Number Game\n\n\nCreate Analog Clock\n\n\nCreate Pong Game\n\n\nCreate flappy bird", 
+            "text": "Code\n\n\n\n\nAny fool can write code that a computer can understand. Good programmers write code that humans can understand.\n- Martin Fowler\n\n\n\n\n\n\n\nBooks", 
             "title": "Home"
         }, 
         {
             "location": "/#code", 
+            "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\n- Martin Fowler", 
+            "title": "Code"
+        }, 
+        {
+            "location": "/#books", 
+            "text": "", 
+            "title": "Books"
+        }, 
+        {
+            "location": "/outline/", 
+            "text": "Code\n\n\n\n\nIt's inspired by \nThis is CS50 course from Harvard University\n, \nProgramming for Everybody (Getting Started with Python) from coursera\n\n\n\n\nI will to do crazy and dummy things, I will rewrite article for basic languages (which tutorialpoints do very goods)\n\n\nEach language I will cover these concepts:\n\n\nTable of content\n\n\ncode/\n\u251c\u2500\u2500 1. introduction\n\u251c\u2500\u2500 2. syntax\n\u251c\u2500\u2500 3. data structure\n\u251c\u2500\u2500 4. oop\n\u251c\u2500\u2500 5. networking\n\u251c\u2500\u2500 6. os\n\u251c\u2500\u2500 7. parallel\n\u251c\u2500\u2500 8. event based\n\u251c\u2500\u2500 9. error handling\n\u251c\u2500\u2500 10. logging\n\u251c\u2500\u2500 11. configuration\n\u251c\u2500\u2500 12. documentation\n\u251c\u2500\u2500 13. test\n\u251c\u2500\u2500 14. ui\n\u251c\u2500\u2500 15. web\n\u251c\u2500\u2500 16. database\n\u251c\u2500\u2500 17. ide\n\u251c\u2500\u2500 18. package manager\n\u251c\u2500\u2500 19. build tool\n\u251c\u2500\u2500 20. make module\n\u2514\u2500\u2500 21. production (docker)\n\n\n\n\n1. Introduction\n\n\n\n\nInstallation (environment, IDE)\n\n\nHello world\n\n\nCourses\n\n\nResources\n\n\n\n\n2. Syntax\n\n\n\n\nvariables and expressions\n\n\nconditional\n\n\nloops and Iteration\n\n\nfunctions\n\n\ndefine, use\n\n\nparameters\n\n\nscope of variables\n\n\nanonymous functions\n\n\ncallbacks\n\n\nself-invoking functions\n, \ninner functions\n\n\nfunctions that return functions\n, \nfunctions that redefined themselves\n\n\nclosures\n\n\n\n\n\n\nnaming convention\n\n\ncomment convention\n\n\n\n\n3.Data Structure\n\n\n\n\nNumber\n\n\nString\n\n\nCollection\n\n\nDateTime\n\n\nBoolean\n\n\nObject\n\n\n\n\n4. OOP \n1\n\n\n\n\nClasses \n Objects \n\n\nInheritance\n\n\nEncapsulation\n\n\nAbstraction \n\n\nPolymorphism \n\n\n\n\nfor OOP Example: see \nPython: OOP\n\n\n5. Networking\n\n\n\n\nREST (example with chat app \nsender\n, \nreceiver\n, \nmessage\n)\n\n\n\n\nCode Learn\n\n\nCode.org\n\n\n\n\n\n\nStar Wars Characters Will Now Teach Your Kids To Code\n\n\n\n\nProjects \n1\n\n\n\n\nCreate\n\n\nGuess My Number Game\n\n\nCreate Analog Clock\n\n\nCreate Pong Game\n\n\nCreate flappy bird", 
+            "title": "Outline"
+        }, 
+        {
+            "location": "/outline/#code", 
             "text": "It's inspired by  This is CS50 course from Harvard University ,  Programming for Everybody (Getting Started with Python) from coursera   I will to do crazy and dummy things, I will rewrite article for basic languages (which tutorialpoints do very goods)  Each language I will cover these concepts:", 
             "title": "Code"
         }, 
         {
-            "location": "/#table-of-content", 
+            "location": "/outline/#table-of-content", 
             "text": "code/\n\u251c\u2500\u2500 1. introduction\n\u251c\u2500\u2500 2. syntax\n\u251c\u2500\u2500 3. data structure\n\u251c\u2500\u2500 4. oop\n\u251c\u2500\u2500 5. networking\n\u251c\u2500\u2500 6. os\n\u251c\u2500\u2500 7. parallel\n\u251c\u2500\u2500 8. event based\n\u251c\u2500\u2500 9. error handling\n\u251c\u2500\u2500 10. logging\n\u251c\u2500\u2500 11. configuration\n\u251c\u2500\u2500 12. documentation\n\u251c\u2500\u2500 13. test\n\u251c\u2500\u2500 14. ui\n\u251c\u2500\u2500 15. web\n\u251c\u2500\u2500 16. database\n\u251c\u2500\u2500 17. ide\n\u251c\u2500\u2500 18. package manager\n\u251c\u2500\u2500 19. build tool\n\u251c\u2500\u2500 20. make module\n\u2514\u2500\u2500 21. production (docker)", 
             "title": "Table of content"
         }, 
         {
-            "location": "/#1-introduction", 
+            "location": "/outline/#1-introduction", 
             "text": "Installation (environment, IDE)  Hello world  Courses  Resources", 
             "title": "1. Introduction"
         }, 
         {
-            "location": "/#2-syntax", 
+            "location": "/outline/#2-syntax", 
             "text": "variables and expressions  conditional  loops and Iteration  functions  define, use  parameters  scope of variables  anonymous functions  callbacks  self-invoking functions ,  inner functions  functions that return functions ,  functions that redefined themselves  closures    naming convention  comment convention", 
             "title": "2. Syntax"
         }, 
         {
-            "location": "/#3data-structure", 
+            "location": "/outline/#3data-structure", 
             "text": "Number  String  Collection  DateTime  Boolean  Object", 
             "title": "3.Data Structure"
         }, 
         {
-            "location": "/#4-oop-1", 
+            "location": "/outline/#4-oop-1", 
             "text": "Classes   Objects   Inheritance  Encapsulation  Abstraction   Polymorphism    for OOP Example: see  Python: OOP", 
             "title": "4. OOP 1"
         }, 
         {
-            "location": "/#5-networking", 
+            "location": "/outline/#5-networking", 
             "text": "REST (example with chat app  sender ,  receiver ,  message )", 
             "title": "5. Networking"
         }, 
         {
-            "location": "/#code-learn", 
+            "location": "/outline/#code-learn", 
             "text": "", 
             "title": "Code Learn"
         }, 
         {
-            "location": "/#codeorg", 
+            "location": "/outline/#codeorg", 
             "text": "Star Wars Characters Will Now Teach Your Kids To Code", 
             "title": "Code.org"
         }, 
         {
-            "location": "/#projects-1", 
+            "location": "/outline/#projects-1", 
             "text": "Create  Guess My Number Game  Create Analog Clock  Create Pong Game  Create flappy bird", 
             "title": "Projects 1"
         }, 

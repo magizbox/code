@@ -1,12 +1,36 @@
-site_name: Code101
+site_name: Code
+site_author: "Vu Anh"
+google_analytics: ['UA-68978617-1', 'magizbox.com']
+
 pages:
 - "Home": "index.md"
-- "Principles": "principles.md"
-- "Paradigms": "paradigms.md"
-- "Testing": "testing.md"
-- "Logging": "logging.md"
-- "Functional": "functional.md"
-- "Parallel": "parallel.md"
-- "IDE": "ide.md"
+- "Docs":
+  - "Outline": "outline.md"
+  - "Principles": "principles.md"
+  - "Paradigms": "paradigms.md"
+  - "Testing": "testing.md"
+  - "Logging": "logging.md"
+  - "Functional": "functional.md"
+  - "Parallel": "parallel.md"
+  - "IDE": "ide.md"
+
 markdown_extensions:
     - footnotes
+
+
+extra_css:
+  - components/magiz-c-book/src/book.css
+  - components/magiz-c-course/src/course.css
+  - components/magiz-c-video/src/video.css
+  - components/magiz-c-benchmark/src/benchmark.css
+  - components/magiz-c-paper/src/paper.css
+
+extra_javascript:
+  - components/underscore/underscore.js
+  - components/magiz-c-book/src/gspreadsheet.js
+  - components/magiz-c-paper/src/paper.js
+  - components/magiz-c-course/src/course.js
+  - components/magiz-c-benchmark/src/benchmark.js
+  - components/magiz-c-benchmark/src/bootstrap-popup.js
+  - components/magiz-c-book/src/book.js
+  - components/magiz-c-video/src/video.js
