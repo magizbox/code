@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,50 +12,56 @@
     
         
     <url>
-     <loc>None/outline/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/outline/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/principles/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/principles/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/paradigms/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/ask/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/testing/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/paradigms/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/logging/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/testing/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/functional/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/logging/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/parallel/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/functional/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/ide/</loc>
-     <lastmod>2016-10-14</lastmod>
+     <loc>/parallel/</loc>
+     <lastmod>2017-06-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/ide/</loc>
+     <lastmod>2017-06-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

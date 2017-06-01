@@ -2,13 +2,18 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Code\n\n\n\n\nAny fool can write code that a computer can understand. Good programmers write code that humans can understand.\n- Martin Fowler\n\n\n\n\n\n\n\nBooks", 
+            "text": "Code\n\n\n\n\nAny fool can write code that a computer can understand. Good programmers write code that humans can understand.\n- Martin Fowler\n\n\n\n\n\n\n\nLatest Posts\n\n\n(01/06/2017) \nHow to make a good question (and \"almost\" answer it)?\n\n\n(20/11/2016) \nHow to learn to code?\n\n\n(15/10/2016) \nCode Principles\n\n\n(20/09/2016) \nProgramming Paradigms\n\n\n(18/08/2016) \nWhat is testing?\n\n\n(16/07/2016) \nHow to log your program?\n\n\n(04/05/2016) \nFunctional Programming\n\n\n(02/05/2016) \nParallel Programming\n\n\n(09/02/2016) \nWhat is IDE\n\n\nBooks", 
             "title": "Home"
         }, 
         {
             "location": "/#code", 
             "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\n- Martin Fowler", 
             "title": "Code"
+        }, 
+        {
+            "location": "/#latest-posts", 
+            "text": "(01/06/2017)  How to make a good question (and \"almost\" answer it)?  (20/11/2016)  How to learn to code?  (15/10/2016)  Code Principles  (20/09/2016)  Programming Paradigms  (18/08/2016)  What is testing?  (16/07/2016)  How to log your program?  (04/05/2016)  Functional Programming  (02/05/2016)  Parallel Programming  (09/02/2016)  What is IDE", 
+            "title": "Latest Posts"
         }, 
         {
             "location": "/#books", 
@@ -79,6 +84,16 @@
             "location": "/principles/#programming-principles", 
             "text": "", 
             "title": "Programming Principles"
+        }, 
+        {
+            "location": "/ask/", 
+            "text": "How to ask a question\n\n\n\n\nFocus on questions about an actual problem you have faced. Include details about what you have tried and exactly what you are trying to do.\n\n\n\n\nAsk about...\n\n\n\u2714 Specific programming problems\n\n\n\u2714  Software algorithms\n\n\n\u2714  Coding techniques\n\n\n\u2714  Software development tools\n\n\n\n\nNot all questions work well in our format. Avoid questions that are primarily opinion-based, or that are likely to generate discussion rather than answers.\n\n\n\n\nDon't ask about...\n\n\n\u2716 Questions you haven't tried to find an answer for (show your work!)\n\n\n\u2716 Product or service recommendations or comparisons\n\n\n\u2716 Requests for lists of things, polls, opinions, discussions, etc.\n\n\n\u2716 Anything not directly related to writing computer programs", 
+            "title": "Ask a question"
+        }, 
+        {
+            "location": "/ask/#how-to-ask-a-question", 
+            "text": "Focus on questions about an actual problem you have faced. Include details about what you have tried and exactly what you are trying to do.   Ask about...  \u2714 Specific programming problems  \u2714  Software algorithms  \u2714  Coding techniques  \u2714  Software development tools   Not all questions work well in our format. Avoid questions that are primarily opinion-based, or that are likely to generate discussion rather than answers.   Don't ask about...  \u2716 Questions you haven't tried to find an answer for (show your work!)  \u2716 Product or service recommendations or comparisons  \u2716 Requests for lists of things, polls, opinions, discussions, etc.  \u2716 Anything not directly related to writing computer programs", 
+            "title": "How to ask a question"
         }, 
         {
             "location": "/paradigms/", 

@@ -4,9 +4,10 @@ google_analytics: ['UA-68978617-1', 'magizbox.com']
 
 pages:
 - "Home": "index.md"
-- "Docs":
+- "Posts":
   - "Outline": "outline.md"
   - "Principles": "principles.md"
+  - "Ask a question": "ask.md"
   - "Paradigms": "paradigms.md"
   - "Testing": "testing.md"
   - "Logging": "logging.md"
